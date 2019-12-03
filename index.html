@@ -7,16 +7,26 @@
     <title>build this webpage - Google Search</title>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
 <body>
     <!-- Navbar  -->
     <div class="navbar">
-        <nav>
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google-logo">
-            <input type="text" name="google-search" id="google-search">
-
-            <button>Squares</button>
-            <button>Sign in</button>
+        <nav class="header">
+            <div class="left">
+                <div id="logo">
+                    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="google-logo">
+                </div>
+                <div id="search-box">
+                    <input type="text" name="google search" id="google-search">
+                    <i class="fas fa-search fa-lg"></i>
+                </div>
+            </div>
+            <div class="right">
+                    <button id="square-dots"><i class="fas fa-th fa-lg"></i></button>
+                    <button id="sign-in">Sign in</button>
+            </div>
         </nav>
         <nav>
             <a href="#">All</a>
@@ -33,11 +43,11 @@
     <!-- Search Results  -->
     <div class="container">
         <!-- Search Time  -->
-        <div>
+        <div id="search-time">
             <span>About 117,000,000 results (0.45 seconds)</span>
         </div>
         <!-- Results  -->
-        <div>
+        <div class="content">
             <h3><a href="#">Build Your Website for Free | Create Your Stunning Website</a></h3>
             <h4><span>Ad </span> www.wix.com/‎</h4>
             <p>Easy to Use! Build a Website, Get Online. Free multilingual fonts. Custom domain name. Social media compatible. Easy-to-add blog. Top industry hosting. 100s of templates. 1000s of free images. 24/7 support center. SEO wizard. Customizable online store.</p>
@@ -62,26 +72,22 @@
         </div>
         <!-- Feedback  -->
         <div>
-            <h2>People also ask</h2>
             <div>
-                <p>How can I create my own webpage?</p>
+                <h2>People also ask</h2>
+                <div>
+                    <p>How can I create my own webpage?</p>
+                </div>
+                <div>
+                    <p>How can I create my own website on Google?</p>
+                </div>
+                <div>
+                    <p>How much does it cost to build a website?</p>
+                </div>
+                <div>
+                    <p>How can I create a website using HTML?</p>
+                </div>
             </div>
-            <div>
-                <p>How can I create my own website on Google?</p>
-            </div>
-            <div>
-                <p>How much does it cost to build a website?</p>
-            </div>
-            <div>
-                <p>How can I create a website using HTML?</p>
-            </div>
-            <div>
-                <p>How can I design my website myself?</p>
-            </div>
-            <div>
-                <p>What are the requirements to create website?</p>
-            </div>
-
+            <p>Feedback</p>
         </div>
         <!-- Videos  -->
         <div>
