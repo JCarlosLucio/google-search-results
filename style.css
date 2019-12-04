@@ -3,6 +3,7 @@ body {
     color: #545454;
     font-size: 14px;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 hr{
@@ -61,6 +62,21 @@ h3 a:hover{
     margin: 5px auto 5px 150px;
     justify-content: space-between;
 }
+.navbar-foot{
+    background-color: #f8f8f8;
+    border-top: 1px solid #c6c6c6;
+}
+
+.footer{
+    display: flex;
+    max-width:100%;
+    min-width: 1080px;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto 0 150px;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .left{
     display: flex;
@@ -94,13 +110,35 @@ h3 a:hover{
     /* padding-bottom: 15px;
     border-bottom: 2px solid blue; */
 }
+.navbar-foot p{
+    padding: 0 5px;
+}
+.navbar-foot p i{
+    color: #a1a1a1;
+}
+.navbar-foot a{
+    color: #545454;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.header-bot a:hover{
+    color: #4683ea;
+}
+
+.navbar-foot a:hover{
+    color: black;
+
+}
 
 #logo {
     display: flex;
     width: 92px;
     height: 30px;
     float: inline-start;
-    margin: 15px 35px 15px 12px;
+    margin: 23px 35px 15px 20px;
+    /* margin: 15px 35px 15px 12px; */
+    /* margin +8px */
 
 }
 
@@ -110,7 +148,7 @@ h3 a:hover{
     width: 612px;
     border-radius: 80px;
     padding: 12px;
-    margin: 7px 0;
+    margin: 15px 0 7px;
     float: inline-end;
 }
 
@@ -125,7 +163,7 @@ h3 a:hover{
     background-color: white;
     border-radius: 20px;
     border: 1px solid transparent;
-    padding: 10px 11px;
+    padding: 18px 11px 10px;
     margin: 10px 0;
 }
 
