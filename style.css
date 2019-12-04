@@ -5,6 +5,14 @@ body {
     font-family: Arial, sans-serif;
 }
 
+hr{
+    margin: 0;
+    border: 0 none;
+    height: 1px;
+    color: rgba(197, 194, 194, 0.3);
+    background-color: rgba(187, 184, 184, 0.3);
+}
+
 h4 {
     color: #006621;
     font-size: 16px;
@@ -34,8 +42,6 @@ h3 a:hover{
     text-decoration: underline;
 }
 
-
-
 .header {
     display: inline-flex;
     max-width:100%;
@@ -44,8 +50,30 @@ h3 a:hover{
     height: 60px;
     margin: 5px 0;
     justify-content: space-between;
-    /* border: 2px solid red; */
+}
 
+.header-bot{
+    display: inline-flex;
+    max-width:610px;
+    min-width: 610px;
+    width: 100%;
+    height: 30px;
+    margin: 5px auto 5px 150px;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .fa-search {
@@ -58,10 +86,17 @@ h3 a:hover{
     margin-left: 150px;
 }
 
+.header-bot a{
+    /* vertical-align: middle; */
+    font-size: 13px;
+    text-decoration: none;
+    color: #545454;
+    /* padding-bottom: 15px;
+    border-bottom: 2px solid blue; */
+}
 
 #logo {
     display: flex;
-    /* padding: 5px 35px 0 12px; */
     width: 92px;
     height: 30px;
     float: inline-start;
@@ -85,7 +120,7 @@ h3 a:hover{
     background-color: white;
 }
 
-#square-dots{
+#btn-square-dots{
     color: #545454;
     background-color: white;
     border-radius: 20px;
@@ -94,7 +129,7 @@ h3 a:hover{
     margin: 10px 0;
 }
 
-#sign-in{
+#btn-sign-in{
     color: white;
     font-size: 15px;
     font-weight: 200;
@@ -105,17 +140,32 @@ h3 a:hover{
     margin: 11px 10px;
 }
 
+#btn-tools{
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 4px 11px;
+    margin-left: 10px;
+}
+
 #search-time {
     line-height: 40px;
 }
 
-#search-box:hover{
+#search-box:hover {
     box-shadow: 0 0 5px rgba(160, 160, 160, 0.5);
 }
-#square-dots:hover{
+#btn-square-dots:hover {
     background-color: rgba(224, 224, 224, 0.3);
 }
-#sign-in:hover{
+
+#btn-tools:hover {
+    border: 1px solid #c6c6c6;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#btn-sign-in:hover {
     background-color: #2c7ce6;
     box-shadow: 0 0 2px rgba(34, 124, 226, 0.8);
 }
