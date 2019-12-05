@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
+
 hr{
     margin: 0;
     border: 0 none;
@@ -21,11 +22,11 @@ h4 {
 }
 
 h3 {
+    font-size: 20px;
     margin: 20px 0  5px;
 }
 
 p {
-    
     line-height: 1.6;
     margin: 0;
     word-wrap: break-word;
@@ -39,9 +40,8 @@ cite a{
     float: right;
 }
 
-h3 a {
+h3 a, .related-content div a{
     color: #1a0dab;
-    font-size: 20px;
     font-weight: normal;
     text-decoration: none;
 }
@@ -141,6 +141,31 @@ h3 a:hover{
     padding: 12px 15px;
     justify-content: space-between;
 }
+.related{
+    margin: 30px 0;
+}
+
+.related-content{
+    display: flex;
+    height: 80px;
+    justify-items: space-between;
+}
+
+.related-content div{
+    display: flex;
+    width: 250px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+}
+
+.related-content div a{
+    font-weight: bold;
+}
+
+.box h2{
+    font-weight: 400;
+    margin: 10px 15px;
+}
 
 .box-div a{
     color: black;
@@ -152,11 +177,6 @@ h3 a:hover{
     color: #a1a1a1;
 }
 
-.box h2{
-    font-weight: 400;
-    margin: 10px 15px;
-}
-
 .header-bot a{
     /* vertical-align: middle; */
     font-size: 13px;
@@ -165,12 +185,20 @@ h3 a:hover{
     /* padding-bottom: 15px;
     border-bottom: 2px solid blue; */
 }
+
+.related h2{
+    color: black;
+    font-weight: 400;
+}
+
 .navbar-foot p{
     padding: 0 5px;
 }
+
 .navbar-foot p i{
     color: #a1a1a1;
 }
+
 .navbar-foot a{
     color: #545454;
     text-decoration: none;
@@ -183,7 +211,6 @@ h3 a:hover{
 
 .navbar-foot a:hover{
     color: black;
-
 }
 
 #logo {
@@ -194,7 +221,6 @@ h3 a:hover{
     margin: 23px 35px 15px 20px;
     /* margin: 15px 35px 15px 12px; */
     /* margin +8px */
-
 }
 
 #search-box {
@@ -248,6 +274,7 @@ h3 a:hover{
 #search-box:hover {
     box-shadow: 0 0 5px rgba(160, 160, 160, 0.5);
 }
+
 #btn-square-dots:hover {
     background-color: rgba(224, 224, 224, 0.3);
 }
@@ -262,6 +289,7 @@ h3 a:hover{
     background-color: #2c7ce6;
     box-shadow: 0 0 2px rgba(34, 124, 226, 0.8);
 }
+
 #ads{
     font-size: 13px;
     border: 1px solid #006621;
