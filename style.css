@@ -142,13 +142,32 @@ h3 a:hover{
     justify-content: space-between;
 }
 .related{
-    margin: 30px 0;
+    margin: 30px 0 20px;
 }
 
 .related-content{
     display: flex;
     height: 80px;
     justify-items: space-between;
+}
+
+.pages-img{
+    padding-left: 12px;
+}
+
+.pages-nums a{
+    color: #4683ea;
+    margin: 0 3.8px;
+    text-decoration: none; 
+}
+
+.pages div{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pages{
+    margin-bottom: 20px;
 }
 
 .related-content div{
@@ -205,8 +224,15 @@ h3 a:hover{
     padding: 0 10px;
 }
 
+.pages-nums a:first-of-type{
+    color: black;
+}
+
 .header-bot a:hover{
     color: #4683ea;
+}
+.pages-nums a:hover{
+    text-decoration: underline;
 }
 
 .navbar-foot a:hover{
