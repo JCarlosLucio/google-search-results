@@ -243,10 +243,15 @@ h3 a:hover{
     display: flex;
     width: 92px;
     height: 30px;
-    float: inline-start;
+    float: left;
     margin: 23px 35px 15px 20px;
     /* margin: 15px 35px 15px 12px; */
     /* margin +8px */
+}
+
+#logo img{
+    width: 92px;
+    height: 30px;   
 }
 
 #search-box {
@@ -256,7 +261,7 @@ h3 a:hover{
     border-radius: 80px;
     padding: 12px;
     margin: 15px 0 7px;
-    float: inline-end;
+    float: right;
 }
 
 #google-search {
